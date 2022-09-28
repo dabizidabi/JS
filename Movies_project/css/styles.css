@@ -1,0 +1,95 @@
+* {
+    font-family: Roboto, Times, serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/old-black-wall.jpg");
+    background-position: center center;
+    background-color: black;
+    padding-top: 50px;
+}
+
+main {
+    width: 60%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 10px;
+}
+
+.search-bar {
+    height: 25px;
+    border: 2px solid silver;
+    border-radius: 2px;
+}
+
+.search-bar::placeholder {
+    font-size: 20px;
+    background-color: silver;
+}
+
+.search-button {
+    height: 25px;
+    width: 25px;
+    background-color: silver;
+    border-radius: 2px;
+}
+
+.search-bar-div {
+    display: flex;
+    align-items: center;
+}
+
+.movies-flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.multicolortext {
+    font-family: Times;
+    background-image: linear-gradient(to left, rgb(71, 60, 60), rgb(68, 56, 56), rgb(28, 32, 28), rgb(47, 47, 53), rgb(68, 68, 58), rgb(46, 43, 38), rgb(88, 75, 75));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
+
+a {
+    font-size: 18px;
+    color: white;
+    padding-right: 10px;
+}
+
+figcaption>a {
+    font-size: 14px;
+}
+
+section>figure {
+    display: inline-block;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    width: 220px;
+    height: 350px;
+    margin: 20px 10px;
+}
+
+figure>img {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+}
+
+figcaption {
+    margin: 10px 5px;
+}
