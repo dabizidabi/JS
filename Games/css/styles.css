@@ -1,0 +1,80 @@
+* {
+    font-family: Roboto, Times, serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 37, 37);
+    padding-top: 10px;
+    color: white;
+}
+
+.center-div {
+    width: 60%;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    padding: 10px;
+}
+
+.games-flexbox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a:link,
+a:visited {
+    color: rgb(99, 97, 97)
+}
+
+nav a {
+    font-size: 18px;
+    color: white;
+    padding-right: 10px;
+}
+
+figcaption>a {
+    font-size: 14px;
+}
+
+section>figure {
+    display: inline-block;
+    border: solid white 1px;
+    width: 240px;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+figure>img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border: solid white 1px;
+    border-radius: 2px;
+}
+
+figcaption {
+    margin: 10px 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.game-name {
+    text-align: center;
+}
+
+.inner-text {
+    font-style: italic;
+    color: rgb(194, 194, 194)
+}
