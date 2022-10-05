@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', async function() {
                     <li>Category: ${this.category}</li>
                     <li>Drink IBA: ${this.drinkIba}</li> 
                     <li>Glass: ${this.glass}</li>  
-                    <li> 
+                    <liа> 
                         <a class="instructions" href="">Instructions</a>
                         <div class="instructions-descript">${this.instructions}</div>
                     </li>

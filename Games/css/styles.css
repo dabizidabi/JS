@@ -8,21 +8,19 @@
 body {
     display: flex;
     justify-content: center;
-    background-image: url("../img/old-black-wall.jpg");
-    background-position: center center;
-    background-color: black;
-    padding-top: 50px;
+    background-color: rgb(37, 37, 37);
+    padding-top: 10px;
+    color: white;
 }
 
-main {
+.center-div {
     width: 60%;
 }
 
-header {
+nav {
     display: flex;
     justify-content: space-between;
     position: sticky;
-    top: 0;
     background-color: black;
     padding: 10px;
 }
@@ -54,14 +52,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.multicolortext {
-    font-family: Times;
-    background-image: linear-gradient(to left, rgb(71, 60, 60), rgb(68, 56, 56), rgb(28, 32, 28), rgb(47, 47, 53), rgb(68, 68, 58), rgb(46, 43, 38), rgb(88, 75, 75));
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    color: transparent;
 }
 
 a {
