@@ -20,38 +20,8 @@ body {
 header {
     position: sticky;
     top: 0px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: black;
     padding: 10px;
-}
-
-.search-bar {
-    height: 25px;
-    border: 2px solid silver;
-    border-radius: 2px;
-}
-
-.search-bar::placeholder {
-    font-size: 20px;
-    background-color: silver;
-}
-
-.search-button {
-    height: 25px;
-    width: 25px;
-    background-color: silver;
-    border-radius: 2px;
-}
-
-.search-bar-div {
-    display: flex;
-    align-items: center;
-    height: 50px;
 }
 
 .games-flexbox {
